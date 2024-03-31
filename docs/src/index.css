@@ -63,6 +63,11 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color:lightslategray;
+    color:white;
+    height:3em;
   }
+}
+td,th{
+  padding:0.5em;
 }

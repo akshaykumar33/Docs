@@ -1,12 +1,15 @@
 import './App.css'
 import { vo } from './db';
+import { useNavigate } from "react-router-dom";
 function App() {
   
-
+  const navigate = useNavigate();
   return (
     <>
+        
         <header className="card">
        <h1> API Contract - XFlix</h1>
+       <button onClick={()=>navigate('/miniprojects')}>Click to view Mini Projects</button>
       </header>
       <nav>
        Click this API to use: <a href="https://akshaykumarpatil33-me-buildout-xflix.onrender.com">https://akshaykumarpatil33-me-buildout-xflix.onrender.com</a>
@@ -259,6 +262,7 @@ function App() {
       </section>
       <footer>
         <a href="https://drive.google.com/file/d/1t2jLSdwXwwaCBFb4s2Lnk_Lc_TxY9Yrk/view">Click to download Test Collections for Postman</a>
+        <button onClick={()=>navigate('/miniprojects')}>Click to view Mini Projects</button>
       </footer>
     </>
   )

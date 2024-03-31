@@ -18,3 +18,10 @@ code{
   padding: 1em;
   
 }
+
+footer,header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
